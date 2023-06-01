@@ -1,0 +1,269 @@
+body {
+    width: 100%;
+    height: 8000px;
+}
+
+header{
+
+    #app-menu {
+
+
+        .payne-img {
+            margin-top: 40px;
+        }
+    
+        .menu {
+            margin-top: 50px;
+    
+            ul {
+                display: flex;
+                gap: 40px;
+    
+                li {
+                    list-style: none;
+    
+    
+                    a {
+                        text-decoration: none;
+                        color: #222;
+                        font-size: 20px;
+    
+    
+                    }
+                }
+            }
+        }
+    
+    
+        .icons {
+            margin-top: 50px;
+    
+            ul {
+                display: flex;
+                gap: 40px;
+    
+                li {
+                    list-style: none;
+    
+                    a {
+                        text-decoration: none;
+                        color: #222;
+                        font-size: 20px;
+                    }
+                }
+            }
+    
+            .number {
+                background-color: #222;
+                height: 18px;
+                width: 18px;
+                border-radius: 50%;
+                position: absolute;
+                right: 371px;
+                top: 51px;
+    
+    
+                span {
+                    color: white;
+                    position: absolute;
+                    right: 6px;
+                    top: 1px;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+    
+}
+
+
+#slider {
+    $color_1: #000;
+    $font-family_1: Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+
+
+    body {
+        position: relative;
+        height: 100%;
+    }
+
+    body {
+        position: relative;
+        height: 100%;
+        background: #eee;
+        font-family: $font-family_1;
+        font-size: 14px;
+        color: $color_1;
+        margin: 0;
+        padding: 0;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+        }
+
+        img:nth-child(2) {
+            position: absolute;
+            z-index: 1;
+            width: 334px;
+            height: 418px;
+            right: 415px;
+        }
+
+
+    }
+
+
+    .amazing-product {
+        span {
+            position: absolute;
+            left: 300px;
+            top: 202px;
+            font-size: 25px;
+            font-family: 'Carlito', sans-serif;
+        }
+    }
+
+
+    .slider-name {
+        h1 {
+            position: absolute;
+            left: 293px;
+            top: 263px;
+            font-family: 'Lilita One', cursive;
+            font-size: 100px;
+        }
+    }
+
+
+    .slider-desc {
+        p {
+            position: absolute;
+            left: 276px;
+            top: 430px;
+            font-size: 15px;
+        }
+    }
+
+}
+
+main {
+    #shopify {
+
+        justify-content: space-between;
+        width: 100%;
+        height: 720px;
+
+
+        .row {
+
+
+
+            .bisco-bag {
+                margin-left: 100px;
+                margin-top: 192px;
+
+                .shopify-name {
+                    span {
+                        position: relative;
+                        bottom: 397px;
+                        font-weight: 700;
+                        font-size: 40px;
+                        left: 145px;
+                    }
+                }
+
+
+
+                .shopify-desc {
+                    span {
+                        position: relative;
+                        bottom: 485px;
+                        left: 166px;
+                        font-weight: 400;
+                        font-size: 17px;
+                    }
+                }
+
+
+            }
+
+
+            .feedo-bag {
+                margin-left: 40px;
+                margin-top: 130px;
+
+                .feedo-name {
+                    span {
+                        writing-mode: vertical-lr;
+                        font-weight: 700;
+                        font-size: 45px;
+                        position: relative;
+                        bottom: 278px;
+                        left: 75px;
+                    }
+
+                }
+
+
+                .feedo-desc {
+                    span {
+                        writing-mode: vertical-lr;
+                        position: relative;
+                        bottom: 524px;
+                        left: 47px;
+                        font-weight: 400;
+                        font-size: 23px;
+                    }
+                }
+            }
+
+        }
+    }
+   
+
+    #main-products {
+        .product-title {
+            width: 100%;
+            height: 50px;
+            margin-top: 78px;
+    
+            p {
+                font-size: 35px;
+                font-weight: 700
+            }
+    
+        }
+
+
+       .product-area{
+        width: 100%;
+        height: 442px;
+      
+       }
+
+    }
+
+
+}
+

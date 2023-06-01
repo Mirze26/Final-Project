@@ -1,0 +1,172 @@
+body {
+  width: 100%;
+  height: 8000px;
+}
+
+header #app-menu .payne-img {
+  margin-top: 40px;
+}
+header #app-menu .menu {
+  margin-top: 50px;
+}
+header #app-menu .menu ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .menu ul li {
+  list-style: none;
+}
+header #app-menu .menu ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+}
+header #app-menu .icons {
+  margin-top: 50px;
+}
+header #app-menu .icons ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .icons ul li {
+  list-style: none;
+}
+header #app-menu .icons ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+}
+header #app-menu .icons .number {
+  background-color: #222;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: absolute;
+  right: 371px;
+  top: 51px;
+}
+header #app-menu .icons .number span {
+  color: white;
+  position: absolute;
+  right: 6px;
+  top: 1px;
+  font-size: 11px;
+}
+
+#slider body {
+  position: relative;
+  height: 100%;
+}
+#slider body {
+  position: relative;
+  height: 100%;
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+#slider .swiper {
+  width: 100%;
+  height: 100%;
+}
+#slider .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#slider .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#slider .swiper-slide img:nth-child(2) {
+  position: absolute;
+  z-index: 1;
+  width: 334px;
+  height: 418px;
+  right: 415px;
+}
+#slider .amazing-product span {
+  position: absolute;
+  left: 300px;
+  top: 202px;
+  font-size: 25px;
+  font-family: "Carlito", sans-serif;
+}
+#slider .slider-name h1 {
+  position: absolute;
+  left: 293px;
+  top: 263px;
+  font-family: "Lilita One", cursive;
+  font-size: 100px;
+}
+#slider .slider-desc p {
+  position: absolute;
+  left: 276px;
+  top: 430px;
+  font-size: 15px;
+}
+
+main #shopify {
+  justify-content: space-between;
+  width: 100%;
+  height: 720px;
+}
+main #shopify .row .bisco-bag {
+  margin-left: 100px;
+  margin-top: 192px;
+}
+main #shopify .row .bisco-bag .shopify-name span {
+  position: relative;
+  bottom: 397px;
+  font-weight: 700;
+  font-size: 40px;
+  left: 145px;
+}
+main #shopify .row .bisco-bag .shopify-desc span {
+  position: relative;
+  bottom: 485px;
+  left: 166px;
+  font-weight: 400;
+  font-size: 17px;
+}
+main #shopify .row .feedo-bag {
+  margin-left: 40px;
+  margin-top: 130px;
+}
+main #shopify .row .feedo-bag .feedo-name span {
+  writing-mode: vertical-lr;
+  font-weight: 700;
+  font-size: 45px;
+  position: relative;
+  bottom: 278px;
+  left: 75px;
+}
+main #shopify .row .feedo-bag .feedo-desc span {
+  writing-mode: vertical-lr;
+  position: relative;
+  bottom: 524px;
+  left: 47px;
+  font-weight: 400;
+  font-size: 23px;
+}
+main #main-products .product-title {
+  width: 100%;
+  height: 50px;
+  margin-top: 78px;
+}
+main #main-products .product-title p {
+  font-size: 35px;
+  font-weight: 700;
+}
+main #main-products .product-area {
+  width: 100%;
+  height: 442px;
+}/*# sourceMappingURL=Home.css.map */
