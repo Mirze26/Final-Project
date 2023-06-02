@@ -169,4 +169,69 @@ main #main-products .product-title p {
 main #main-products .product-area {
   width: 100%;
   height: 442px;
+}
+main #main-products .product-area .product-img img {
+  height: 300px;
+  margin-top: 60px;
+}
+main #main-products .product-area .product-name {
+  text-align: center;
+  margin-top: 5px;
+  font-weight: 500;
+  font-size: larger;
+}
+main #main-products .product-area .product-price {
+  text-align: center;
+  font-weight: 500;
+  font-size: 19px;
+}
+main #main-products .product-area .maincontainer {
+  width: 302px;
+  height: 299px;
+  margin: 10px;
+  float: left;
+}
+main #main-products .product-area .maincontainer > .front {
+  position: absolute;
+  transform: perspective(600px) rotateY(0deg);
+  width: 302px;
+  height: 290px;
+  backface-visibility: hidden;
+  transition: transform 0.5s linear 0s;
+}
+main #main-products .product-area .maincontainer > .back {
+  position: absolute;
+  transform: perspective(600px) rotateY(180deg);
+  background: white;
+  color: #fff;
+  width: 302px;
+  height: 290px;
+  border-radius: 10px;
+  padding: 5px;
+  backface-visibility: hidden;
+  transition: transform 0.5s linear 0s;
+}
+main #main-products .product-area .maincontainer:hover > .front {
+  transform: perspective(600px) rotateY(-180deg);
+}
+main #main-products .product-area .maincontainer:hover > .back {
+  transform: perspective(600px) rotateY(0deg);
+}
+main #main-products .product-area img {
+  border-radius: 10px;
+  height: 300px;
+}
+main #main-products .product-area .back h2 {
+  position: absolute;
+}
+main #main-products .product-area .back p {
+  position: absolute;
+  top: 50px;
+  font-size: 15px;
+}
+main #main-products .product-area .front h2 {
+  position: absolute;
+  padding: 10px;
+  top: 200px;
+  color: #000;
 }/*# sourceMappingURL=Home.css.map */
