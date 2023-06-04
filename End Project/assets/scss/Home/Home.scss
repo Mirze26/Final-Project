@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    height: 8000px;
+   
 }
 
 header {
@@ -213,6 +213,7 @@ main {
                 margin-left: 40px;
                 margin-top: 130px;
 
+
                 .feedo-name {
                     span {
                         writing-mode: vertical-lr;
@@ -293,8 +294,8 @@ main {
             $color_1: #000;
             $color_2: #fff;
 
-         
-           
+
+
             .maincontainer {
                 width: 302px;
                 height: 299px;
@@ -366,4 +367,202 @@ main {
     }
 
 
+    #discount-products {
+
+        height: 740px;
+
+        .feedo-bag {
+            margin-left: 144px;
+            margin-top: 130px;
+           
+
+
+
+            .feedo-name {
+                width: 100%;
+                height: auto;
+
+                span {
+                    writing-mode: vertical-lr;
+                    font-weight: 700;
+                    font-size: 45px;
+                    position: relative;
+                    bottom: 278px;
+                    left: 393px;
+                }
+
+            }
+
+
+
+            .feedo-desc {
+                width: 100%;
+                height: auto;
+
+                span {
+                    writing-mode: vertical-lr;
+                    position: relative;
+                    bottom: 524px;
+                    left: 360px;
+                    font-weight: 400;
+                    font-size: 23px;
+                }
+            }
+
+
+            .discount {
+                width: 105px;
+                height: 105px;
+                background-color: black;
+                border-radius: 50%;
+                position: relative;
+                bottom: 945px;
+                left: 80px;
+
+                .number {
+                    color: white;
+                    position: absolute;
+                    left: 24px;
+                    top: 8px;
+                    font-family: 'Lilita One';
+                    font-size: 32px;
+                }
+
+
+                .dis {
+                    color: white;
+                    position: absolute;
+                    left: 24px;
+                    top: 42px;
+                    font-family: 'Lilita One';
+                    font-size: 32px;
+                }
+            }
+        }
+
+
+
+        .bisco-bag {
+            margin-left: 50px;
+            margin-top: 192px;
+
+            .shopify-name {
+                span {
+                    position: relative;
+                    bottom: 397px;
+                    font-weight: 700;
+                    font-size: 40px;
+                    left: 145px;
+                }
+            }
+
+
+
+            .shopify-desc {
+                span {
+                    position: relative;
+                    bottom: 485px;
+                    left: 166px;
+                    font-weight: 400;
+                    font-size: 17px;
+                }
+            }
+
+
+
+            .discount {
+                width: 105px;
+                height: 105px;
+                background-color: black;
+                border-radius: 50%;
+                position: relative;
+                bottom: 401px;
+                left: 351px;
+
+                .number {
+                    color: white;
+                    position: absolute;
+                    left: 24px;
+                    top: 8px;
+                    font-family: 'Lilita One';
+                    font-size: 32px;
+                }
+
+
+                .dis {
+                    color: white;
+                    position: absolute;
+                    left: 24px;
+                    top: 42px;
+                    font-family: 'Lilita One';
+                    font-size: 32px;
+                }
+            }
+
+
+        }
+
+
+
+    }
+
+
+    #shipment {
+
+        .delivery {
+            background-color: #f3f3f3;
+            height: 170px;
+            width: 100%;
+            text-align: center;
+
+            .truck{
+                margin-top: 40px;
+                font-size: 50px;
+            }
+
+            span{
+
+                position: relative;
+                top: 10px;
+                font-weight: 600;
+                font-size: 25px;
+            }
+
+
+            .dollar{
+                margin-top: 40px;
+                font-size: 50px;
+            }
+
+
+            .support-icon{
+                margin-top: 40px;
+                font-size: 50px;
+            }
+        }
+
+    }
+
+
+}
+
+
+footer{
+
+    .footer{
+        width: 100%;
+        height: 400px;
+        background-color: rgb(244, 248, 250);
+        margin-top: 110px;
+
+        .payne-img{
+            margin-top: 85px;
+        }
+
+
+        .info{
+            font-family: cursive;
+            margin-top: 15px;
+        }
+    }
 }
