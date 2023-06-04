@@ -368,6 +368,36 @@ footer .footer .payne-img {
   margin-top: 85px;
 }
 footer .footer .info {
-  font-family: cursive;
   margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer .footer-title {
+  margin-top: 85px;
+  margin-top: 85px;
+  font-size: 21px;
+  font-weight: 700;
+}
+footer ul li {
+  list-style: none;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer hr {
+  color: #c1b8b8;
+}
+footer .copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+footer .footer-icon {
+  text-align: center;
 }/*# sourceMappingURL=Home.css.map */
