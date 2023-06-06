@@ -1,0 +1,169 @@
+body {
+  width: 100%;
+}
+
+header .menu-area {
+  width: 100%;
+  height: 330px;
+  background-color: #f4f4f4;
+}
+header #app-menu .about-page {
+  text-align: center;
+  margin-top: 120px;
+  font-weight: bold;
+  font-size: 45px;
+}
+header #app-menu .home-about {
+  text-align: center;
+}
+header #app-menu .home-about a {
+  text-decoration: none;
+  color: black;
+}
+header #app-menu .payne-img {
+  margin-top: 40px;
+}
+header #app-menu .menu {
+  margin-top: 50px;
+}
+header #app-menu .menu ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .menu ul li {
+  list-style: none;
+}
+header #app-menu .menu ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+}
+header #app-menu .icons {
+  margin-top: 50px;
+}
+header #app-menu .icons ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .icons ul li {
+  list-style: none;
+}
+header #app-menu .icons ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+}
+header #app-menu .icons .number {
+  background-color: #222;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: absolute;
+  right: 370px;
+  top: 51px;
+}
+header #app-menu .icons .number span {
+  color: white;
+  position: absolute;
+  right: 6px;
+  top: 1px;
+  font-size: 11px;
+}
+
+main #image .main-img {
+  margin-top: 75px;
+}
+main #image .main-img img {
+  width: 100%;
+}
+main #image .payne-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
+main #image .payne-text {
+  margin-top: 10px;
+  font-size: 19px;
+}
+main #choose-us .choose-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
+main #choose-us .truck-free {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+main #choose-us .title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+main #choose-us .description {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 19px;
+}
+main #about-gallery .gallery {
+  margin-top: 110px;
+}
+main #about-gallery .gallery-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+main #about-gallery .gallery-description {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+footer .footer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(244, 248, 250);
+  margin-top: 110px;
+}
+footer .footer .payne-img {
+  margin-top: 85px;
+}
+footer .footer .info {
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer .footer-title {
+  margin-top: 85px;
+  margin-top: 85px;
+  font-size: 21px;
+  font-weight: 700;
+}
+footer ul li {
+  list-style: none;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer hr {
+  color: #c1b8b8;
+}
+footer .copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+footer .copyright .footer-icon a {
+  color: black;
+  margin: 5px;
+}/*# sourceMappingURL=About.css.map */

@@ -1,0 +1,269 @@
+body {
+    width: 100%;
+    
+
+
+}
+
+header {
+
+    .menu-area {
+        width: 100%;
+        height: 330px;
+        background-color: #f4f4f4;
+    }
+
+
+    #app-menu {
+
+        .about-page {
+            text-align: center;
+            margin-top: 120px;
+            font-weight: bold;
+            font-size: 45px;
+        }
+
+
+        .home-about {
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+
+
+
+        .payne-img {
+            margin-top: 40px;
+        }
+
+        .menu {
+            margin-top: 50px;
+
+            ul {
+                display: flex;
+                gap: 40px;
+
+                li {
+                    list-style: none;
+
+
+                    a {
+                        text-decoration: none;
+                        color: #222;
+                        font-size: 20px;
+
+
+                    }
+                }
+            }
+        }
+
+
+        .icons {
+            margin-top: 50px;
+
+            ul {
+                display: flex;
+                gap: 40px;
+
+                li {
+                    list-style: none;
+
+                    a {
+                        text-decoration: none;
+                        color: #222;
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .number {
+                background-color: #222;
+                height: 18px;
+                width: 18px;
+                border-radius: 50%;
+                position: absolute;
+                right: 370px;
+                top: 51px;
+
+
+                span {
+                    color: white;
+                    position: absolute;
+                    right: 6px;
+                    top: 1px;
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+
+}
+
+main {
+    #image {
+        .main-img {
+            margin-top: 75px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+
+
+
+
+        .payne-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .payne-text {
+            margin-top: 10px;
+            font-size: 19px;
+
+        }
+
+    }
+
+    #choose-us {
+
+        .choose-title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+
+        .truck-free{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+
+        .title{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+
+        .description{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            font-size: 19px;
+        }
+
+    }
+
+
+    #about-gallery{
+
+        .gallery{
+           margin-top: 110px;
+        }
+
+
+        .gallery-title{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+
+        .gallery-description{
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    }
+
+
+   
+
+
+}
+
+
+
+footer {
+
+    .footer {
+        width: 100%;
+        height: 400px;
+        background-color: rgb(244, 248, 250);
+        margin-top: 110px;
+
+        .payne-img {
+            margin-top: 85px;
+        }
+
+
+        .info {
+            margin-top: 15px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+        }
+    }
+
+
+
+    .footer-title {
+        margin-top: 85px;
+        margin-top: 85px;
+        font-size: 21px;
+        font-weight: 700;
+
+
+
+    }
+
+
+    ul {
+        li {
+            list-style: none;
+            margin-top: 15px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+    hr {
+        color: #c1b8b8;
+    }
+
+    .copyright {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+
+
+        .footer-icon {
+            a {
+                color: black;
+                margin: 5px;
+            }
+        }
+    }
+
+
+
+}
