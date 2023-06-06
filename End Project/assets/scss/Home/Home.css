@@ -16,9 +16,27 @@ header #app-menu .menu ul li {
   list-style: none;
 }
 header #app-menu .menu ul li a {
+  position: relative;
   text-decoration: none;
   color: #222;
   font-size: 20px;
+  letter-spacing: 0.5px;
+}
+header #app-menu .menu ul li a:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 25px;
+  transition: 0.2s;
+}
+header #app-menu .menu ul li a:hover {
+  color: #000;
+}
+header #app-menu .menu ul li a:hover:after {
+  width: 100%;
 }
 header #app-menu .icons {
   margin-top: 50px;
