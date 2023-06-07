@@ -1,0 +1,287 @@
+body {
+  width: 100%;
+}
+
+header .menu-area {
+  width: 100%;
+  height: 330px;
+  background-color: #f4f4f4;
+}
+header #app-menu .about-page {
+  text-align: center;
+  margin-top: 120px;
+  font-weight: bold;
+  font-size: 45px;
+}
+header #app-menu .home-about {
+  text-align: center;
+}
+header #app-menu .home-about a {
+  text-decoration: none;
+  color: black;
+}
+header #app-menu .payne-img {
+  margin-top: 40px;
+}
+header #app-menu .menu {
+  margin-top: 50px;
+}
+header #app-menu .menu ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .menu ul li {
+  list-style: none;
+}
+header #app-menu .menu ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+header #app-menu .menu ul li a:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 25px;
+  transition: 0.2s;
+}
+header #app-menu .menu ul li a:hover {
+  color: #000;
+}
+header #app-menu .menu ul li a:hover:after {
+  width: 100%;
+}
+header #app-menu .icons {
+  margin-top: 50px;
+}
+header #app-menu .icons ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .icons ul li {
+  list-style: none;
+}
+header #app-menu .icons ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+}
+header #app-menu .icons .number {
+  background-color: #222;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: absolute;
+  right: 370px;
+  top: 51px;
+}
+header #app-menu .icons .number span {
+  color: white;
+  position: absolute;
+  right: 6px;
+  top: 1px;
+  font-size: 11px;
+}
+
+main #product-area .widget-title h3 {
+  font-size: 20px;
+  margin-top: 100px;
+  font-family: inherit;
+}
+main #product-area .bottom-line hr {
+  color: #a3a3a3;
+}
+main #product-area .thick-line {
+  position: absolute;
+  top: 468px;
+  background-color: black;
+  width: 40px;
+  height: 4px;
+}
+main #product-area .thick-line-two {
+  position: absolute;
+  top: 1032px;
+  background-color: black;
+  width: 40px;
+  height: 4px;
+}
+main #product-area .thick-line-three {
+  position: absolute;
+  top: 1597px;
+  background-color: black;
+  width: 40px;
+  height: 4px;
+}
+main #product-area .widget-list {
+  margin-left: -36px;
+}
+main #product-area .widget-list ul {
+  list-style: none;
+}
+main #product-area .widget-list ul li {
+  padding: 5px;
+}
+main #product-area .product-img {
+  position: relative;
+  color: red;
+  margin-top: 141px;
+}
+main #product-area .product-img img {
+  width: 100%;
+  display: block;
+}
+main #product-area .product-img:hover .icons {
+  opacity: 1;
+}
+main #product-area .product-img:hover .icon-list {
+  bottom: 26px;
+}
+main #product-area .product-img .icons {
+  position: absolute;
+  bottom: 35px;
+  left: 25px;
+  margin: 18px 12px 18px 0;
+  z-index: 1;
+  opacity: 0;
+}
+main #product-area .product-img .icons button {
+  border: none;
+  background-color: black;
+  color: #fff;
+  margin: 18px 12px 18px 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+main #product-area .product-img .icons button:hover {
+  background-color: rgb(247, 244, 244);
+  color: #313030;
+}
+main #product-area .item-detail {
+  padding: 16px;
+  color: #202020;
+  text-align: center;
+}
+main #product-area .item-detail p {
+  font-weight: 300;
+  opacity: 0.9;
+  font-size: 15px;
+  line-height: 1.7;
+  display: none;
+}
+main #product-area .item-name {
+  font-weight: 500;
+  font-size: 18px;
+  color: #202020;
+  display: block;
+}
+main #product-area .item-price {
+  margin: 10px 0;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #product-area .old-price {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+main #product-area .new-price {
+  color: #f79410;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+main #product-area .add-btn {
+  margin: 16px 0;
+  text-transform: uppercase;
+  border: none;
+  background-color: #202020;
+  color: #fff;
+  font-family: inherit;
+  padding: 10px 28px;
+  border: 1px solid #202020;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  display: none;
+}
+main #product-area .add-btn:hover {
+  background-color: #fff;
+  color: #202020;
+}
+main #product-area .details-active.item-list {
+  grid-template-columns: 100%;
+}
+main #product-area .details-active .item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+main #product-area .details-active .item-detail {
+  text-align: left;
+}
+main #product-area .details-active .item-detail p {
+  display: block;
+}
+main #product-area .details-active .item-detail .add-btn {
+  display: block;
+}
+main #product-area .details-active .item-price {
+  justify-content: flex-start;
+}
+
+footer .footer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(244, 248, 250);
+  margin-top: 110px;
+}
+footer .footer .payne-img {
+  margin-top: 85px;
+}
+footer .footer .info {
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer .footer-title {
+  margin-top: 85px;
+  margin-top: 85px;
+  font-size: 21px;
+  font-weight: 700;
+}
+footer ul li {
+  list-style: none;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer hr {
+  color: #c1b8b8;
+}
+footer .copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+footer .copyright .footer-icon a {
+  color: black;
+  margin: 5px;
+}/*# sourceMappingURL=Shop.css.map */
