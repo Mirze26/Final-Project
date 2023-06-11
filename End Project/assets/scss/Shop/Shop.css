@@ -47,7 +47,7 @@ header #app-menu .menu ul li a:after {
   height: 3px;
   width: 0;
   left: 0;
-  bottom: 25px;
+  top: 28px;
   transition: 0.2s;
 }
 header #app-menu .menu ul li a:hover {
@@ -105,14 +105,14 @@ main #product-area .thick-line {
 }
 main #product-area .thick-line-two {
   position: absolute;
-  top: 1032px;
+  top: 1048px;
   background-color: black;
   width: 40px;
   height: 4px;
 }
 main #product-area .thick-line-three {
   position: absolute;
-  top: 1597px;
+  top: 1614px;
   background-color: black;
   width: 40px;
   height: 4px;
@@ -198,7 +198,7 @@ main #product-area .old-price {
   opacity: 0.6;
 }
 main #product-area .new-price {
-  color: #f79410;
+  color: black;
   font-size: 18px;
   font-weight: 600;
   margin-right: 10px;
@@ -239,6 +239,16 @@ main #product-area .details-active .item-detail .add-btn {
 }
 main #product-area .details-active .item-price {
   justify-content: flex-start;
+}
+main #product-area .paginashion {
+  margin-top: 60px;
+}
+main #product-area .paginashion ul li a {
+  color: black;
+  background-color: white;
+}
+main #product-area .paginashion ul li a:hover {
+  background-color: #b4afaf;
 }
 
 footer .footer {

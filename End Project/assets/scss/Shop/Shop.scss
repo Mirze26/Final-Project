@@ -68,7 +68,7 @@ header {
                         height: 3px;
                         width: 0;
                         left: 0;
-                        bottom: 25px;
+                        top: 28px;
                         transition: 0.2s;
                     }
 
@@ -156,7 +156,7 @@ main {
 
         .thick-line-two {
             position: absolute;
-            top: 1032px;
+            top: 1048px;
             background-color: black;
             width: 40px;
             height: 4px;
@@ -166,7 +166,7 @@ main {
 
         .thick-line-three {
             position: absolute;
-            top: 1597px;
+            top: 1614px;
             background-color: black;
             width: 40px;
             height: 4px;
@@ -190,7 +190,7 @@ main {
         }
 
 
-             
+
 
         .product-img {
             position: relative;
@@ -200,7 +200,7 @@ main {
             img {
                 width: 100%;
                 display: block;
-               
+
 
             }
 
@@ -291,7 +291,7 @@ main {
         }
 
         .new-price {
-            color: #f79410;
+            color: black;
             font-size: 18px;
             font-weight: 600;
             margin-right: 10px;
@@ -352,6 +352,28 @@ main {
             }
         }
 
+        .paginashion {
+            margin-top: 60px;
+
+            ul {
+                li {
+                    a {
+                        color: black;
+                        background-color: white;
+                    }
+
+                    a:hover {
+                        background-color: #b4afaf;
+                    }
+                }
+            }
+        }
+
+
+
+
+        
+
 
     }
 
@@ -367,14 +389,14 @@ main {
 
 
 
-       
-
-
-        
 
 
 
-    
+
+
+
+
+
 
 
 

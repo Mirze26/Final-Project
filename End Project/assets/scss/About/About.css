@@ -47,7 +47,7 @@ header #app-menu .menu ul li a:after {
   height: 3px;
   width: 0;
   left: 0;
-  bottom: 25px;
+  top: 28px;
   transition: 0.2s;
 }
 header #app-menu .menu ul li a:hover {
