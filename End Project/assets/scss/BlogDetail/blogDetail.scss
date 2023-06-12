@@ -1,6 +1,6 @@
 body {
     width: 100%;
-
+    height: 6000px;
 
 }
 
@@ -127,8 +127,8 @@ header {
 
 
 main {
+    #blog-detail {
 
-    #blog-area {
         .blog-post {
             .border-post {
 
@@ -190,7 +190,7 @@ main {
                         }
                     }
 
-                    .blog-date span:hover{
+                    .blog-date span:hover {
                         color: rgb(36, 35, 35);
                     }
 
@@ -205,17 +205,15 @@ main {
                         }
                     }
 
-                    
+
 
                 }
 
             }
-           
+
         }
 
-
-        
-        .border-archive{
+        .border-archive {
 
             background-color: white;
             border: 1px solid black;
@@ -230,7 +228,7 @@ main {
             }
 
 
-            .bottom-line{
+            .bottom-line {
 
                 width: 203px;
                 margin-left: 20px;
@@ -253,55 +251,49 @@ main {
             }
 
 
-            .archive-list{
-                ul{
+            .archive-list {
+                ul {
                     list-style: none;
-                  
 
-                    li{
+
+                    li {
                         margin-left: -12px;
                         line-height: 50px;
 
-                        a{
+                        a {
                             text-decoration: none;
                             color: #222;
                             font-size: 14px;
                         }
                     }
 
-                   a:hover{
+                    a:hover {
                         background-color: #d3cece;
                     }
 
-                  
-                   
+
+
                 }
 
-                
+
             }
 
-           
-
-           
 
 
-          
+
+
+
+
         }
 
-       
-
-
-
-
-
-        .border-tags{
+        .border-tags {
             background-color: white;
             border: 1px solid black;
             height: 231px;
             width: 260px;
 
 
-            .tag-title{
+            .tag-title {
 
                 margin-top: 20px;
                 margin-left: 20px;
@@ -309,11 +301,11 @@ main {
             }
 
 
-            
 
 
 
-            .bottom-line{
+
+            .bottom-line {
 
                 width: 203px;
                 margin-left: 20px;
@@ -329,27 +321,27 @@ main {
                 }
             }
 
-          
 
 
 
-            .tag-list{
 
-                ul{
+            .tag-list {
+
+                ul {
                     list-style: none;
-                  
 
-                    li{
+
+                    li {
                         margin-left: -12px;
                         line-height: 30px;
 
-                        a{
+                        a {
                             text-decoration: none;
                             color: #222;
                             font-size: 14px;
                         }
 
-                        a:hover{
+                        a:hover {
                             background-color: #d3cece;
                         }
                     }
@@ -359,146 +351,65 @@ main {
             }
         }
 
-      
+
+        .post-title {
+            font-family: "Roboto Mono", monospace;
+            font-size: 45px;
+            font-weight: 500;
+        }
 
 
-
-
-
-
-
-
-        .blog-photo {
-
-
+        .post-img {
             img {
                 width: 100%;
                 height: auto;
+                margin-top: 31px;
+            }
+        }
+
+
+
+        .post-header {
+            padding-top: 12px;
+            padding-bottom: 10px;
+
+            .posted-on {
+                font-family: cursive;
+
+            }
+
+            .post-category {
+                float: right;
+                font-family: cursive;
             }
 
         }
 
 
-        .blog-title {
-            font-size: 25px;
-            font-weight: 700;
-            margin-top: 15px;
+        .black-line {
 
-            a{
-                text-decoration: none;
-                color: black;
+            height: 1px;
+            background-color: black;
+        }
+
+
+        .first-text {
+            margin-top: 30px;
+
+            p {
+                font-family: "Tilt Prism";
+                font-size: 17px;
+
             }
         }
 
 
-        .blog-author {
-            font-size: 15px;
-            margin-top: 5px;
-            font-weight: 400;
+
+        .text-title {
+            font-size: 33px;
+            font-weight: 600;
+            font-family: 'Anton', sans-serif;
         }
-
-
-        .author-text {
-            font-size: 21px;
-            margin-top: 20px;
-        }
-
-
-
-
-
-        .paginashion {
-            margin-top: 60px;
-
-            ul {
-                li {
-                    a {
-                        color: black;
-                        background-color: white;
-                    }
-
-                    a:hover {
-                        background-color: #b4afaf;
-                    }
-                }
-            }
-        }
-
 
     }
-}
-
-
-
-
-footer {
-
-    .footer {
-        width: 100%;
-        height: 400px;
-        background-color: rgb(244, 248, 250);
-        margin-top: 110px;
-
-        .payne-img {
-            margin-top: 85px;
-        }
-
-
-        .info {
-            margin-top: 15px;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 500;
-            font-size: 15px;
-        }
-    }
-
-
-
-    .footer-title {
-        margin-top: 85px;
-        margin-top: 85px;
-        font-size: 21px;
-        font-weight: 700;
-
-
-
-    }
-
-
-    ul {
-        li {
-            list-style: none;
-            margin-top: 15px;
-            font-family: "Roboto", sans-serif;
-            font-weight: 500;
-            font-size: 15px;
-
-
-            a {
-                text-decoration: none;
-                color: black;
-            }
-        }
-    }
-
-    hr {
-        color: #c1b8b8;
-    }
-
-    .copyright {
-        text-align: center;
-        font-family: "Roboto", sans-serif;
-        font-size: 15px;
-
-
-        .footer-icon {
-            a {
-                color: black;
-                margin: 5px;
-            }
-        }
-    }
-
-
-
 }
