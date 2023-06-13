@@ -1,6 +1,5 @@
 body {
   width: 100%;
-  height: 6000px;
 }
 
 header .menu-area {
@@ -257,4 +256,120 @@ main #blog-detail .text-title {
   font-size: 33px;
   font-weight: 600;
   font-family: "Anton", sans-serif;
+}
+main #blog-detail .second-text p {
+  font-family: "Tilt Prism";
+  font-size: 17px;
+}
+main #blog-detail .line {
+  height: 1px;
+  background-color: rgb(235, 235, 235);
+}
+main #blog-detail .comment-header span {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  line-height: 3;
+  font-weight: 800;
+}
+main #blog-detail .comment-area {
+  justify-content: space-between;
+  border: 1px solid black;
+  width: 50%;
+  height: 110px;
+  background-color: white;
+  margin-left: 160px;
+}
+main #blog-detail .comment-area .comment-name {
+  padding: 15px;
+}
+main #blog-detail .comment-area .comment-name h4 {
+  font-weight: bold;
+  font-family: cursive;
+}
+main #blog-detail .comment-area .comment-name .message {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: revert;
+}
+main #blog-detail .comment-area .comment-date {
+  margin-top: 17px;
+}
+main #blog-detail .comment-area .comment-date span {
+  padding: 15px;
+  font-family: serif;
+}
+main #blog-detail .comment-title span {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  line-height: 3;
+  font-weight: 700;
+}
+main #blog-detail .input {
+  gap: 10px;
+  border-style: none;
+}
+main #blog-detail .input input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  outline: none;
+  border-color: whitesmoke;
+}
+main #blog-detail .button button {
+  font-size: 12px;
+  font-weight: 600;
+  width: 14%;
+  height: 35px;
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+main #blog-detail .button button:hover {
+  color: black;
+  background-color: white;
+}
+
+footer .footer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(244, 248, 250);
+  margin-top: 110px;
+}
+footer .footer .payne-img {
+  margin-top: 85px;
+}
+footer .footer .info {
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer .footer-title {
+  margin-top: 85px;
+  margin-top: 85px;
+  font-size: 21px;
+  font-weight: 700;
+}
+footer ul li {
+  list-style: none;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer hr {
+  color: #c1b8b8;
+}
+footer .copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+footer .copyright .footer-icon a {
+  color: black;
+  margin: 5px;
 }/*# sourceMappingURL=blogDetail.css.map */

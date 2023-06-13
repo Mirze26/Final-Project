@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    height: 6000px;
+
 
 }
 
@@ -411,5 +411,191 @@ main {
             font-family: 'Anton', sans-serif;
         }
 
+
+
+        .second-text {
+            p {
+                font-family: "Tilt Prism";
+                font-size: 17px;
+            }
+        }
+
+        .line {
+            height: 1px;
+            background-color: rgb(235 235 235);
+        }
+
+
+        .comment-header {
+            span {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                line-height: 3;
+                font-weight: 800;
+            }
+        }
+
+
+        .comment-area {
+            justify-content: space-between;
+            border: 1px solid black;
+            width: 50%;
+            height: 110px;
+            background-color: white;
+            margin-left: 160px;
+
+
+            .comment-name {
+                padding: 15px;
+   
+
+                h4 {
+
+                    font-weight: bold;
+                    font-family: cursive;
+                }
+
+                .message{
+                    font-size: 17px;
+                    font-weight: 400;
+                    font-family: revert;
+                }
+            }
+
+
+            .comment-date{
+                margin-top: 17px;
+                span{
+                    padding: 15px;
+                    font-family: serif;
+                }
+            }
+        }
+
+
+
+
+
+
+
+        .comment-title {
+            span {
+                font-size: 25px;
+                font-family: "Roboto", sans-serif;
+                line-height: 3;
+                font-weight: 700;
+            }
+        }
+
+
+        .input {
+            gap: 10px;
+            border-style: none;
+
+            input {
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                outline: none;
+                border-color: whitesmoke;
+            }
+        }
+
+
+
+
+
+        .button {
+            button {
+                font-size: 12px;
+
+                font-weight: 600;
+                width: 14%;
+                height: 35px;
+                color: white;
+                background-color: black;
+                border-color: black;
+
+            }
+
+            button:hover {
+                color: black;
+                background-color: white;
+            }
+        }
+
     }
+}
+
+
+footer {
+
+    .footer {
+        width: 100%;
+        height: 400px;
+        background-color: rgb(244, 248, 250);
+        margin-top: 110px;
+
+        .payne-img {
+            margin-top: 85px;
+        }
+
+
+        .info {
+            margin-top: 15px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+        }
+    }
+
+
+
+    .footer-title {
+        margin-top: 85px;
+        margin-top: 85px;
+        font-size: 21px;
+        font-weight: 700;
+
+
+
+    }
+
+
+    ul {
+        li {
+            list-style: none;
+            margin-top: 15px;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+
+    hr {
+        color: #c1b8b8;
+    }
+
+    .copyright {
+        text-align: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+
+
+        .footer-icon {
+            a {
+                color: black;
+                margin: 5px;
+            }
+        }
+    }
+
+
+
 }
