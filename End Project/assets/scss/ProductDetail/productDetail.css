@@ -1,6 +1,5 @@
 body {
   width: 100%;
-  height: 6000px;
 }
 
 header .menu-area {
@@ -89,6 +88,21 @@ header #app-menu .icons .number span {
   font-size: 11px;
 }
 
+main #product-detail .img {
+  width: 400px;
+  margin-left: 20px;
+}
+main #product-detail .img img {
+  width: 100%;
+}
+main #product-detail .photos {
+  width: 125px;
+  margin-left: 84px;
+}
+main #product-detail .photos img {
+  width: 100%;
+  padding-bottom: 12px;
+}
 main #product-detail .product-name {
   font-size: 30px;
   font-family: inherit;
@@ -197,4 +211,243 @@ main #product-detail .wishlist-button button {
 main #product-detail .wishlist-button button:hover {
   color: black;
   background-color: white;
+}
+main #product-detail .category-area {
+  gap: 20px;
+}
+main #product-detail .category-area .product-category {
+  font-weight: 600;
+  margin-top: 45px;
+}
+main #product-detail .category-area p {
+  margin-top: 3px;
+  font-size: 14px;
+}
+main #product-detail .category-area p a {
+  text-decoration: none;
+  color: #4a4949;
+}
+main #product-detail .tags-area {
+  gap: 20px;
+}
+main #product-detail .tags-area .product-tag {
+  font-weight: 600;
+  margin-top: -9px;
+}
+main #product-detail .tags-area p {
+  margin-top: -8px;
+  font-size: 14px;
+}
+main #product-detail .tags-area p span {
+  font-size: 16px;
+}
+main #product-detail .tags-area p span a {
+  text-decoration: none;
+  color: #4a4949;
+}
+main #product-detail .payment-options {
+  font-weight: 600;
+}
+main #product-detail .payment-options .payment-methods img {
+  width: 7%;
+}
+main #tabmenu-area ul {
+  gap: 10px;
+}
+main #tabmenu-area ul li {
+  border: 1px solid #e7e2e2;
+}
+main #tabmenu-area ul li button {
+  color: black;
+  background-color: white;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+}
+main #tabmenu-area .dec-text {
+  font-size: 15px;
+  color: black;
+  font-weight: 400;
+  margin: 0 0 15px;
+  line-height: 1.625;
+}
+main #tabmenu-area .reviews {
+  font-size: 13px;
+  font-weight: bold;
+}
+main #tabmenu-area .reviews .bottom-line {
+  height: 1px;
+  background-color: #f1ecec;
+  margin-top: 40px;
+}
+main #tabmenu-area .reviews .user-name {
+  margin-top: 20px;
+  font-size: 18px;
+}
+main #tabmenu-area .reviews .user-comment {
+  margin-top: 15px;
+}
+main #related-products .product-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+main #related-products .swiper {
+  width: 100%;
+  height: 300px;
+  margin: 20px auto;
+}
+main #related-products .swiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #related-products .swiper .append-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+main #related-products .swiper .append-buttons a {
+  display: inline-block;
+  border: 1px solid #007aff;
+  color: #007aff;
+  text-decoration: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin: 0 10px;
+  font-size: 13px;
+}
+main #related-products .swiper .cart-product {
+  flex: 0 0 auto;
+  width: 19%;
+  margin: 7px;
+}
+main #related-products .swiper .cart-product .product-carusel {
+  position: relative;
+}
+main #related-products .swiper .cart-product .product-carusel img {
+  width: 100%;
+}
+main #related-products .swiper .cart-product .product-carusel .icons {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  margin: 18px 12px 18px 0;
+  z-index: 1;
+  opacity: 0;
+}
+main #related-products .swiper .cart-product .product-carusel .icons button {
+  border: none;
+  background-color: black;
+  color: #fff;
+  margin: 18px 12px 18px 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+main #related-products .swiper .cart-product .product-carusel .icons button:hover {
+  background-color: rgb(247, 244, 244);
+  color: #313030;
+}
+main #related-products .swiper .cart-product .product-carusel:hover .icons {
+  opacity: 1;
+  z-index: 55555;
+}
+main #related-products .swiper .cart-product .product-carusel:hover .icons .icon-list {
+  bottom: 26px;
+}
+main #related-products .item-detail {
+  color: #202020;
+  text-align: center;
+}
+main #related-products .item-detail .item-name {
+  font-weight: 500;
+  font-size: 18px;
+  color: #202020;
+  display: block;
+}
+main #related-products .item-detail .item-price {
+  font-size: 16px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #related-products .item-detail .item-price .old-price {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+main #related-products .item-detail .item-price .new-price {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 20px;
+}
+main #related-products .item-detail .item-price .add-btn {
+  margin: 16px 0;
+  text-transform: uppercase;
+  border: none;
+  background-color: #202020;
+  color: #fff;
+  font-family: inherit;
+  padding: 10px 28px;
+  border: 1px solid #202020;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  display: none;
+}
+main #related-products .item-detail .item-price .add-btn:hover {
+  background-color: #fff;
+  color: #202020;
+}
+
+footer .footer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(244, 248, 250);
+  margin-top: 110px;
+}
+footer .footer .payne-img {
+  margin-top: 85px;
+}
+footer .footer .info {
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer .footer-title {
+  margin-top: 85px;
+  margin-top: 85px;
+  font-size: 21px;
+  font-weight: 700;
+}
+footer ul li {
+  list-style: none;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer hr {
+  color: #c1b8b8;
+}
+footer .copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+footer .copyright .footer-icon a {
+  color: black;
+  margin: 5px;
 }/*# sourceMappingURL=productDetail.css.map */
