@@ -69,6 +69,26 @@ header #app-menu .icons .number span {
   top: 1px;
   font-size: 11px;
 }
+header #app-menu .login-register {
+  border: 1px solid #f7f7f7;
+  height: 100px;
+  z-index: 10;
+  position: absolute;
+  width: 8%;
+  right: 424px;
+  top: 95px;
+}
+header #app-menu .login-register ul {
+  list-style: none;
+}
+header #app-menu .login-register ul li {
+  padding: 10px;
+}
+header #app-menu .login-register ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
 
 #slider body {
   position: relative;

@@ -1,55 +1,137 @@
-body {
-  background: #eee;
+header .menu-area {
+  width: 100%;
+  height: 330px;
+  background-color: #f4f4f4;
+}
+header #app-menu .about-page {
+  text-align: center;
+  margin-top: 120px;
+  font-weight: bold;
+  font-size: 45px;
+}
+header #app-menu .home-about {
+  text-align: center;
+}
+header #app-menu .home-about a {
+  text-decoration: none;
+  color: black;
+}
+header #app-menu .payne-img {
+  margin-top: 40px;
+}
+header #app-menu .menu {
+  margin-top: 50px;
+}
+header #app-menu .menu ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .menu ul li {
+  list-style: none;
+}
+header #app-menu .menu ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+header #app-menu .menu ul li a:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: 0;
+  top: 28px;
+  transition: 0.2s;
+}
+header #app-menu .menu ul li a:hover {
+  color: #000;
+}
+header #app-menu .menu ul li a:hover:after {
+  width: 100%;
+}
+header #app-menu .icons {
+  margin-top: 50px;
+}
+header #app-menu .icons ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .icons ul li {
+  list-style: none;
+}
+header #app-menu .icons ul li a {
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+}
+header #app-menu .icons .number {
+  background-color: #222;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+  position: absolute;
+  right: 370px;
+  top: 51px;
+}
+header #app-menu .icons .number span {
+  color: white;
+  position: absolute;
+  right: 6px;
+  top: 1px;
+  font-size: 11px;
+}
+
+main body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
-
-.clearfix {
+main .clearfix {
   content: "";
   display: table;
   clear: both;
 }
-
-#site-header {
+main #site-header {
   background: #fff;
   margin: 0 0 30px 0;
 }
-#site-header h1 {
+main #site-header h1 {
   font-size: 31px;
   font-weight: 300;
   padding: 40px 0;
   position: relative;
   margin: 0;
 }
-#site-header h1 span {
-  color: #53b5aa;
+main #site-header h1 span {
+  color: black;
 }
-#site-header h1 span.last-span {
+main #site-header h1 span.last-span {
   background: #fff;
   padding-right: 150px;
   position: absolute;
   left: 217px;
   transition: all 0.2s linear;
 }
-#site-header h1:hover span.last-span {
+main #site-header h1:hover span.last-span {
   left: 363px;
 }
-#site-header h1 span.is-open {
+main #site-header h1 span.is-open {
   left: 363px;
 }
-#site-header h1 em {
+main #site-header h1 em {
   font-size: 16px;
   font-style: normal;
   vertical-align: middle;
 }
-
-#site-footer {
+main #site-footer {
   background: #fff;
   margin: 30px 0 0 0;
   padding: 40px;
 }
-#site-footer h1 {
+main #site-footer h1 {
   background: #fcfcfc;
   border: 1px solid #ccc;
   border-style: none none solid none;
@@ -59,53 +141,49 @@ body {
   padding: 14px 40px;
   text-align: center;
 }
-#site-footer h2 {
+main #site-footer h2 {
   font-size: 24px;
   font-weight: 300;
   margin: 10px 0 0 0;
 }
-#site-footer h3 {
+main #site-footer h3 {
   font-size: 19px;
   font-weight: 300;
   margin: 15px 0;
 }
-
-a {
+main a {
   color: #000;
   text-decoration: none;
   transition: color 0.2s linear;
 }
-a:hover {
-  color: #53b5aa;
+main a:hover {
+  color: black;
 }
-
-.container {
+main .container {
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
   width: 980px;
 }
-
-#cart {
+main #cart {
   width: 100%;
 }
-#cart h1 {
-  font-weight: 300;
+main #cart h1 {
+  text-align: center;
+  font-weight: 800;
 }
-#cart a {
-  color: #53b5aa;
+main #cart a {
+  color: black;
   text-decoration: none;
   transition: color 0.2s linear;
 }
-#cart a:hover {
+main #cart a:hover {
   color: #000;
 }
-
-.product.removed {
+main .product.removed {
   margin-left: 980px !important;
   opacity: 0;
 }
-
-.product {
+main .product {
   border: 1px solid #eee;
   margin: 20px 0;
   width: 100%;
@@ -113,11 +191,11 @@ a:hover {
   position: relative;
   transition: margin 0.2s linear, opacity 0.2s linear;
 }
-.product img {
+main .product img {
   width: 100%;
   height: 100%;
 }
-.product header {
+main .product header {
   background-color: #fff;
   border: 1px solid #ccc;
   border-style: none none solid none;
@@ -130,14 +208,14 @@ a:hover {
   width: 24%;
   height: 195px;
 }
-.product header:hover img {
+main .product header:hover img {
   opacity: 0.7;
 }
-.product header:hover h3 {
+main .product header:hover h3 {
   bottom: 73px;
 }
-.product header h3 {
-  background: #53b5aa;
+main .product header h3 {
+  background: red;
   color: #fff;
   font-size: 22px;
   font-weight: 300;
@@ -150,7 +228,7 @@ a:hover {
   left: 0;
   transition: bottom 0.2s linear;
 }
-.product .content {
+main .product .content {
   background-color: #fff;
   border: 1px solid #ccc;
   border-style: none none solid none;
@@ -161,18 +239,18 @@ a:hover {
   padding: 0 20px;
   width: 75%;
 }
-.product h1 {
-  color: #53b5aa;
+main .product h1 {
+  color: black;
   font-size: 25px;
   font-weight: 300;
   margin: 17px 0 20px 0;
 }
-.product footer.content {
+main .product footer.content {
   height: 50px;
   margin: 6px 0 0 0;
   padding: 0;
 }
-.product footer .price {
+main .product footer .price {
   background: #fcfcfc;
   color: #000;
   float: right;
@@ -182,8 +260,8 @@ a:hover {
   margin: 0;
   padding: 0 30px;
 }
-.product footer .full-price {
-  background: #53b5aa;
+main .product footer .full-price {
+  background: black;
   color: #fff;
   float: right;
   font-size: 22px;
@@ -193,12 +271,10 @@ a:hover {
   padding: 0 30px;
   transition: margin 0.15s linear;
 }
-
-.remove {
+main .remove {
   cursor: pointer;
 }
-
-.qt {
+main .qt {
   display: block;
   float: left;
   font-size: 19px;
@@ -206,8 +282,7 @@ a:hover {
   width: 70px;
   text-align: center;
 }
-
-.qt-plus {
+main .qt-plus {
   display: block;
   float: left;
   background: #fcfcfc;
@@ -219,13 +294,12 @@ a:hover {
   transition: background 0.2s linear;
   line-height: 50px;
 }
-.qt-plus:hover {
-  background: #53b5aa;
+main .qt-plus:hover {
+  background: black;
   color: #fff;
   cursor: pointer;
 }
-
-.qt-minus {
+main .qt-minus {
   display: block;
   float: left;
   background: #fcfcfc;
@@ -237,21 +311,18 @@ a:hover {
   transition: background 0.2s linear;
   line-height: 47px;
 }
-.qt-minus:hover {
-  background: #53b5aa;
+main .qt-minus:hover {
+  background: black;
   color: #fff;
   cursor: pointer;
 }
-
-.left {
+main .left {
   float: left;
 }
-
-.right {
+main .right {
   float: right;
 }
-
-.btn {
+main .btn {
   background: #53b5aa;
   border: 1px solid #999;
   border-style: none none solid none;
@@ -265,12 +336,11 @@ a:hover {
   text-align: center;
   transition: all 0.2s linear;
 }
-.btn:hover {
+main .btn:hover {
   color: #fff;
-  background: #429188;
+  background: #e70b0b;
 }
-
-.type {
+main .type {
   background: #fcfcfc;
   font-size: 13px;
   padding: 10px 16px;
@@ -279,8 +349,7 @@ a:hover {
   border-style: none none solid none;
   position: absolute;
 }
-
-.color {
+main .color {
   border: 1px solid #ccc;
   border-style: none none solid none;
   position: absolute;
@@ -288,23 +357,63 @@ a:hover {
   height: 40px;
   right: -40px;
 }
-
-.red {
+main .red {
   background: #cb5a5e;
 }
-
-.yellow {
+main .yellow {
   background: #f1c40f;
 }
-
-.blue {
+main .blue {
   background: #3598dc;
 }
-
-.minused {
+main .minused {
   margin: 0 50px 0 0 !important;
 }
-
-.added {
+main .added {
   margin: 0 -50px 0 0 !important;
+}
+
+footer .footer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(244, 248, 250);
+  margin-top: 110px;
+}
+footer .footer .payne-img {
+  margin-top: 85px;
+}
+footer .footer .info {
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer .footer-title {
+  margin-top: 85px;
+  margin-top: 85px;
+  font-size: 21px;
+  font-weight: 700;
+}
+footer ul li {
+  list-style: none;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer hr {
+  color: #c1b8b8;
+}
+footer .copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+footer .copyright .footer-icon a {
+  color: black;
+  margin: 5px;
 }/*# sourceMappingURL=cart.css.map */

@@ -87,7 +87,30 @@ header #app-menu .icons .number span {
   top: 1px;
   font-size: 11px;
 }
+header #app-menu .login-register {
+  border: 1px solid black;
+  height: 100px;
+  z-index: 10;
+  position: absolute;
+  width: 8%;
+  right: 383px;
+  top: 95px;
+}
+header #app-menu .login-register ul {
+  list-style: none;
+}
+header #app-menu .login-register ul li {
+  padding: 10px;
+}
+header #app-menu .login-register ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
 
+main #product-area .wrapper {
+  margin-top: 20px;
+}
 main #product-area .widget-title h3 {
   font-size: 20px;
   margin-top: 100px;
@@ -98,21 +121,28 @@ main #product-area .bottom-line hr {
 }
 main #product-area .thick-line {
   position: absolute;
-  top: 468px;
+  top: 761px;
   background-color: black;
   width: 40px;
   height: 4px;
 }
 main #product-area .thick-line-two {
   position: absolute;
-  top: 1048px;
+  top: 1104px;
   background-color: black;
   width: 40px;
   height: 4px;
 }
 main #product-area .thick-line-three {
   position: absolute;
-  top: 1614px;
+  top: 1669px;
+  background-color: black;
+  width: 40px;
+  height: 4px;
+}
+main #product-area .thick-line-four {
+  position: absolute;
+  top: 468px;
   background-color: black;
   width: 40px;
   height: 4px;

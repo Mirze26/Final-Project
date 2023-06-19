@@ -1,146 +1,295 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-body{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
-}
-.container{
-  max-width: 700px;
+
+header .menu-area {
   width: 100%;
-  background-color: #fff;
-  padding: 25px 30px;
-  border-radius: 5px;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  height: 330px;
+  background-color: #f4f4f4;
 }
-.container .title{
-  font-size: 25px;
-  font-weight: 500;
+header #app-menu .about-page {
+  text-align: center;
+  margin-top: 120px;
+  font-weight: bold;
+  font-size: 45px;
+}
+header #app-menu .home-about {
+  text-align: center;
+}
+header #app-menu .home-about a {
+  text-decoration: none;
+  color: black;
+}
+header #app-menu .payne-img {
+  margin-top: 40px;
+}
+header #app-menu .menu {
+  margin-top: 50px;
+}
+header #app-menu .menu ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .menu ul li {
+  list-style: none;
+}
+header #app-menu .menu ul li a {
   position: relative;
+  text-decoration: none;
+  color: #222;
+  font-size: 20px;
+  letter-spacing: 0.5px;
 }
-.container .title::before{
+header #app-menu .menu ul li a:after {
   content: "";
   position: absolute;
-  left: 0;
-  bottom: 0;
+  background-color: black;
   height: 3px;
-  width: 30px;
-  border-radius: 5px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  width: 0;
+  left: 0;
+  top: 28px;
+  transition: 0.2s;
 }
-.content form .user-details{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 20px 0 12px 0;
+header #app-menu .menu ul li a:hover {
+  color: #000;
 }
-form .user-details .input-box{
-  margin-bottom: 15px;
-  width: calc(100% / 2 - 20px);
-}
-form .input-box span.details{
-  display: block;
-  font-weight: 500;
-  margin-bottom: 5px;
-}
-.user-details .input-box input{
-  height: 45px;
+header #app-menu .menu ul li a:hover:after {
   width: 100%;
-  outline: none;
-  font-size: 16px;
-  border-radius: 5px;
-  padding-left: 15px;
-  border: 1px solid #ccc;
-  border-bottom-width: 2px;
-  transition: all 0.3s ease;
 }
-.user-details .input-box input:focus,
-.user-details .input-box input:valid{
-  border-color: #9b59b6;
+header #app-menu .icons {
+  margin-top: 50px;
 }
- form .gender-details .gender-title{
+header #app-menu .icons ul {
+  display: flex;
+  gap: 40px;
+}
+header #app-menu .icons ul li {
+  list-style: none;
+}
+header #app-menu .icons ul li a {
+  text-decoration: none;
+  color: #222;
   font-size: 20px;
-  font-weight: 500;
- }
- form .category{
-   display: flex;
-   width: 80%;
-   margin: 14px 0 ;
-   justify-content: space-between;
- }
- form .category label{
-   display: flex;
-   align-items: center;
-   cursor: pointer;
- }
- form .category label .dot{
+}
+header #app-menu .icons .number {
+  background-color: #222;
   height: 18px;
   width: 18px;
   border-radius: 50%;
-  margin-right: 10px;
-  background: #d9d9d9;
-  border: 5px solid transparent;
+  position: absolute;
+  right: 370px;
+  top: 51px;
+}
+header #app-menu .icons .number span {
+  color: white;
+  position: absolute;
+  right: 6px;
+  top: 1px;
+  font-size: 11px;
+}
+header #app-menu .login-register {
+  border: 1px solid black;
+  height: 100px;
+  z-index: 10;
+  position: absolute;
+  width: 8%;
+  right: 383px;
+  top: 95px;
+}
+header #app-menu .login-register ul {
+  list-style: none;
+}
+header #app-menu .login-register ul li {
+  padding: 10px;
+}
+header #app-menu .login-register ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+main {
+  @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: white;
+}
+main .wrapper {
+  width: 380px;
+  background: #f3f3f3;
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+}
+main .wrapper .title {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 100px;
+  color: #000000;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  border-radius: 15px 15px 0 0;
+  background: #f3f3f3;
+}
+main .wrapper form {
+  padding: 10px 30px 50px 30px;
+}
+main .wrapper form .field {
+  height: 50px;
+  width: 100%;
+  margin-top: 20px;
+  position: relative;
+}
+main .wrapper form .field input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 17px;
+  padding-left: 20px;
+  border: 1px solid rgb(172, 154, 165);
+  border-radius: 25px;
   transition: all 0.3s ease;
 }
- #dot-1:checked ~ .category label .one,
- #dot-2:checked ~ .category label .two,
- #dot-3:checked ~ .category label .three{
-   background: #9b59b6;
-   border-color: #d9d9d9;
- }
- form input[type="radio"]{
-   display: none;
- }
- form .button{
-   height: 45px;
-   margin: 35px 0
- }
- form .button input{
-   height: 100%;
-   width: 100%;
-   border-radius: 5px;
-   border: none;
-   color: #fff;
-   font-size: 18px;
-   font-weight: 500;
-   letter-spacing: 1px;
-   cursor: pointer;
-   transition: all 0.3s ease;
-   background: linear-gradient(135deg, #71b7e6, #9b59b6);
- }
- form .button input:hover{
-  /* transform: scale(0.99); */
-  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
-  }
- @media(max-width: 584px){
- .container{
-  max-width: 100%;
+main .wrapper form .field input:focus {
+  border-color: #020701;
 }
-form .user-details .input-box{
-    margin-bottom: 15px;
-    width: 100%;
-  }
-  form .category{
-    width: 100%;
-  }
-  .content form .user-details{
-    max-height: 300px;
-    overflow-y: scroll;
-  }
-  .user-details::-webkit-scrollbar{
-    width: 5px;
-  }
-  }
-  @media(max-width: 459px){
-  .container .content .category{
-    flex-direction: column;
-  }
+main .wrapper form .field label {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  color: #999999;
+  font-weight: 400;
+  font-size: 17px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
 }
+main form .field input:valid {
+  border-color: #020701;
+}
+main form .field input:focus ~ label {
+  top: 0%;
+  font-size: 16px;
+  color: #6e6e70;
+  background: #fff;
+  transform: translateY(-50%);
+}
+main form .field input:valid ~ label {
+  top: 0%;
+  font-size: 16px;
+  color: #6e6e70;
+  background: #fff;
+  transform: translateY(-50%);
+}
+main form .field input[type=submit] {
+  color: #cfcfcf;
+  border: none;
+  padding-left: 0;
+  margin-top: 35px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  background: linear-gradient(-135deg, #000000, #fdfbfb);
+  transition: all 0.3s ease;
+}
+main form .field input[type=submit]:active {
+  transform: scale(0.95);
+}
+main form .content {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-around;
+}
+main form .content .checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main form .content input {
+  width: 15px;
+  height: 15px;
+  background: red;
+}
+main form .content label {
+  color: #070707;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  padding-left: 5px;
+}
+main form .content .pass-link {
+  color: "";
+}
+main form .signup-link {
+  color: #070707;
+  margin-top: 20px;
+  text-align: center;
+}
+main form .signup-link a {
+  color: #6e6e70;
+  text-decoration: none;
+}
+main form .signup-link a:hover {
+  text-decoration: underline;
+}
+main form .pass-link a {
+  color: #6e6e70;
+  text-decoration: none;
+}
+main form .pass-link a:hover {
+  text-decoration: underline;
+}
+
+footer .footer {
+  width: 100%;
+  height: 400px;
+  background-color: rgb(244, 248, 250);
+  margin-top: 110px;
+}
+footer .footer .payne-img {
+  margin-top: 85px;
+}
+footer .footer .info {
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer .footer-title {
+  margin-top: 85px;
+  margin-top: 85px;
+  font-size: 21px;
+  font-weight: 700;
+}
+footer ul li {
+  list-style: none;
+  margin-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+footer hr {
+  color: #c1b8b8;
+}
+footer .copyright {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+footer .copyright .footer-icon a {
+  color: black;
+  margin: 5px;
+}/*# sourceMappingURL=register.css.map */
