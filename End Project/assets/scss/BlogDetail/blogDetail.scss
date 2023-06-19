@@ -121,6 +121,42 @@ header {
                 }
             }
         }
+
+        .login-register {
+
+            border: 1px solid #e9e9e9;
+            background-color: white;
+            height: 100px;
+            z-index: 10;
+            position: absolute;
+            width: 8%;
+            right: 424px;
+            top: 95px;
+
+            ul {
+                list-style: none;
+
+                li {
+                    padding: 10px;
+
+                    a {
+
+                        text-decoration: none;
+                        color: black;
+                        font-size: 14px;
+                    }
+
+                    a:hover {
+
+                        color: rgb(111, 111, 158);
+                    }
+                }
+
+            }
+
+        }
+
+
     }
 
 }
@@ -447,7 +483,7 @@ main {
 
             .comment-name {
                 padding: 15px;
-   
+
 
                 h4 {
 
@@ -455,7 +491,7 @@ main {
                     font-family: cursive;
                 }
 
-                .message{
+                .message {
                     font-size: 17px;
                     font-weight: 400;
                     font-family: revert;
@@ -463,9 +499,10 @@ main {
             }
 
 
-            .comment-date{
+            .comment-date {
                 margin-top: 17px;
-                span{
+
+                span {
                     padding: 15px;
                     font-family: serif;
                 }
