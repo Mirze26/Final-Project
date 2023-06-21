@@ -10,6 +10,7 @@ userIcon.addEventListener("click",function(e){
 
 
 
+
 let searchIcon = document.querySelector("#app-menu .icons ul li .glass")
 let search = document.querySelector("#app-menu .search")
 searchIcon.addEventListener("click", function(e){

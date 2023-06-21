@@ -110,6 +110,24 @@ header #app-menu .login-register ul li a {
   color: black;
   font-size: 14px;
 }
+header #app-menu .search {
+  position: absolute;
+  right: 564px;
+  top: 44px;
+  width: 186px;
+  z-index: 2;
+}
+header #app-menu .search input {
+  width: 155px;
+  height: 45px;
+  padding: 15px;
+  outline: none;
+  border-color: #f3eeee;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
 
 main {
   @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
