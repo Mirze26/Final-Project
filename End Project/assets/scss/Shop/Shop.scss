@@ -146,10 +146,10 @@ header {
                         font-size: 14px;
                     }
 
-                  a:hover{
+                    a:hover {
 
-                    color: rgb(111, 111, 158);
-                  }
+                        color: rgb(111, 111, 158);
+                    }
                 }
 
             }
@@ -192,10 +192,10 @@ header {
 main {
     #product-area {
 
-        .wrapper{
+        .wrapper {
 
             margin-top: 20px;
-            
+
         }
 
 
@@ -355,6 +355,17 @@ main {
             font-size: 18px;
             color: #202020;
             display: block;
+        }
+
+
+
+
+        .rating {
+
+            a {
+
+                color: orange;
+            }
         }
 
         .item-price {

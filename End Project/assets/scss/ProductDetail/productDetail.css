@@ -295,15 +295,8 @@ main #product-detail .product-name {
   font-size: 30px;
   font-family: inherit;
 }
-main #product-detail .quantity {
-  margin-top: 8px;
-  color: currentColor;
-  font-size: 15px;
-}
-main #product-detail .stock {
-  margin-top: 8px;
-  font-size: 15px;
-  color: currentColor;
+main #product-detail .rating a {
+  color: orange;
 }
 main #product-detail .product-desc {
   margin-top: 11px;
@@ -315,27 +308,8 @@ main #product-detail .product-price {
   font-size: 25px;
   font-weight: bold;
 }
-main #product-detail .product-size {
-  margin-top: 20px;
-  font-size: 20px;
-}
-main #product-detail .product-size .s-size {
-  border: 1px solid black;
-  height: 45px;
-  width: 50px;
-  cursor: pointer;
-  text-align: center;
-  padding: 2px;
-  font-size: 23px;
-  margin: -9px;
-  margin-left: 1pc;
-}
 main #product-detail .product-quantity {
   gap: 10px;
-}
-main #product-detail .product-quantity .quantity {
-  font-size: 20px;
-  margin-top: 45px;
 }
 main #product-detail .product-quantity .plus-minus {
   border: 1px solid #c9c9c9;
@@ -365,22 +339,6 @@ main #product-detail .product-quantity .button button {
   border-color: black;
 }
 main #product-detail .product-quantity .button button:hover {
-  color: black;
-  background-color: white;
-}
-main #product-detail .payment-button {
-  margin-top: 20px;
-}
-main #product-detail .payment-button button {
-  font-size: 14px;
-  font-weight: 600;
-  width: 31%;
-  height: 45px;
-  color: white;
-  background-color: black;
-  border-color: black;
-}
-main #product-detail .payment-button button:hover {
   color: black;
   background-color: white;
 }

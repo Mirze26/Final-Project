@@ -238,6 +238,9 @@ main #product-area .item-name {
   color: #202020;
   display: block;
 }
+main #product-area .rating a {
+  color: orange;
+}
 main #product-area .item-price {
   margin: 10px 0;
   font-weight: 300;

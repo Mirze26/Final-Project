@@ -287,30 +287,33 @@ main #pro-cart .main-wrapper .container .product-list .item-detail p {
   line-height: 1.7;
   display: none;
 }
-main #pro-cart .main-wrapper .container .product-list .item-name {
+main #pro-cart .main-wrapper .container .product-list .item-detail .item-name {
   font-weight: 500;
   font-size: 18px;
   color: #202020;
   display: block;
 }
-main #pro-cart .main-wrapper .container .product-list .item-price {
+main #pro-cart .main-wrapper .container .product-list .item-detail .rating a {
+  color: orange;
+}
+main #pro-cart .main-wrapper .container .product-list .item-detail .item-price {
   margin: 10px 0;
   font-weight: 300;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-main #pro-cart .main-wrapper .container .product-list .old-price {
+main #pro-cart .main-wrapper .container .product-list .item-detail .old-price {
   text-decoration: line-through;
   opacity: 0.6;
 }
-main #pro-cart .main-wrapper .container .product-list .new-price {
-  color: #f79410;
+main #pro-cart .main-wrapper .container .product-list .item-detail .new-price {
+  color: #000000;
   font-size: 18px;
   font-weight: 600;
   margin-right: 10px;
 }
-main #pro-cart .main-wrapper .container .product-list .add-btn {
+main #pro-cart .main-wrapper .container .product-list .item-detail .add-btn {
   margin: 16px 0;
   text-transform: uppercase;
   border: none;
@@ -323,7 +326,7 @@ main #pro-cart .main-wrapper .container .product-list .add-btn {
   transition: all 0.3s ease-out;
   display: none;
 }
-main #pro-cart .main-wrapper .container .product-list .add-btn:hover {
+main #pro-cart .main-wrapper .container .product-list .item-detail .add-btn:hover {
   background-color: #fff;
   color: #202020;
 }

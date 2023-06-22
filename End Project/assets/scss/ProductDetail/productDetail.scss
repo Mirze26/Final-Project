@@ -427,18 +427,15 @@ main {
             font-family: inherit;
         }
 
-        .quantity {
-            margin-top: 8px;
-            color: currentColor;
-            font-size: 15px;
-        }
+     
+        .rating {
 
-        .stock {
-            margin-top: 8px;
-            font-size: 15px;
-            color: currentColor;
+            a {
 
+                color: orange;
+            }
         }
+       
 
 
         .product-desc {
@@ -456,23 +453,7 @@ main {
         }
 
 
-        .product-size {
-            margin-top: 20px;
-            font-size: 20px;
-
-            .s-size {
-
-                border: 1px solid black;
-                height: 45px;
-                width: 50px;
-                cursor: pointer;
-                text-align: center;
-                padding: 2px;
-                font-size: 23px;
-                margin: -9px;
-                margin-left: 1pc;
-            }
-        }
+     
 
 
 
@@ -480,10 +461,7 @@ main {
 
             gap: 10px;
 
-            .quantity {
-                font-size: 20px;
-                margin-top: 45px;
-            }
+            
 
 
             .plus-minus {
@@ -538,25 +516,7 @@ main {
         }
 
 
-        .payment-button {
-            margin-top: 20px;
-
-            button {
-                font-size: 14px;
-                font-weight: 600;
-                width: 31%;
-                height: 45px;
-                color: white;
-                background-color: black;
-                border-color: black;
-
-            }
-
-            button:hover {
-                color: black;
-                background-color: white;
-            }
-        }
+     
 
 
         .wishlist-button {
