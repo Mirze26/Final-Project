@@ -3,6 +3,24 @@ body {
 
 }
 
+.shop-page {
+    text-align: center;
+    margin-top: -100px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+.home-shop {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
 header {
 
     .menu-area {
@@ -14,22 +32,6 @@ header {
 
     #app-menu {
 
-        .about-page {
-            text-align: center;
-            margin-top: 120px;
-            font-weight: bold;
-            font-size: 45px;
-        }
-
-
-        .home-about {
-            text-align: center;
-
-            a {
-                text-decoration: none;
-                color: black;
-            }
-        }
 
 
 
@@ -121,7 +123,6 @@ header {
             }
         }
 
-
         .login-register {
 
             border: 1px solid #e9e9e9;
@@ -158,6 +159,14 @@ header {
 
 
         .search {
+
+            i {
+                position: absolute;
+                right: 35px;
+                top: 15px;
+                color: #c9cdcd;
+                cursor: pointer;
+            }
 
 
             position: absolute;
@@ -196,6 +205,36 @@ main {
 
             margin-top: 20px;
 
+            .filter-price{
+                color: rgb(114, 114, 114);
+
+                
+            }
+
+            .default-btn {
+
+                margin-top: 20px;
+                width: 100%;
+                height: auto;
+
+                button{
+
+                    width: 75px;
+                    height: 44px;
+                    background-color:black;
+                    color: white;
+                }
+
+
+                button:hover{
+
+                    background-color: rgb(75, 1, 32);
+                    color: white;
+                }
+            }
+
+            
+
         }
 
 
@@ -217,7 +256,7 @@ main {
 
         .thick-line {
             position: absolute;
-            top: 761px;
+            top: 817px;
             background-color: black;
             width: 40px;
             height: 4px;
@@ -226,7 +265,7 @@ main {
 
         .thick-line-two {
             position: absolute;
-            top: 1104px;
+            top: 1160px;
             background-color: black;
             width: 40px;
             height: 4px;
@@ -236,7 +275,7 @@ main {
 
         .thick-line-three {
             position: absolute;
-            top: 1669px;
+            top: 1725px;
             background-color: black;
             width: 40px;
             height: 4px;
@@ -246,7 +285,7 @@ main {
 
         .thick-line-four {
             position: absolute;
-            top: 468px;
+            top: 461px;
             background-color: black;
             width: 40px;
             height: 4px;

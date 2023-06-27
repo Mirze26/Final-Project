@@ -6,6 +6,24 @@ body {
 }
 
 
+.contact-page {
+    text-align: center;
+    margin-top: -100px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+.home-contact {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
 header {
 
     .menu-area {
@@ -17,22 +35,6 @@ header {
 
     #app-menu {
 
-        .contact-page {
-            text-align: center;
-            margin-top: 120px;
-            font-weight: bold;
-            font-size: 45px;
-        }
-
-
-        .home-contact {
-            text-align: center;
-
-            a {
-                text-decoration: none;
-                color: black;
-            }
-        }
 
 
 
@@ -57,12 +59,12 @@ header {
                         color: #222;
                         font-size: 20px;
                         letter-spacing: 0.5px;
-                      
+
 
 
                     }
 
-                    a:after{
+                    a:after {
                         content: "";
                         position: absolute;
                         background-color: black;
@@ -73,12 +75,12 @@ header {
                         transition: 0.2s;
                     }
 
-                    a:hover{
-                       color: #000;
+                    a:hover {
+                        color: #000;
                     }
 
 
-                    a:hover:after{
+                    a:hover:after {
                         width: 100%;
                     }
                 }
@@ -148,10 +150,10 @@ header {
                         font-size: 14px;
                     }
 
-                  a:hover{
+                    a:hover {
 
-                    color: rgb(111, 111, 158);
-                  }
+                        color: rgb(111, 111, 158);
+                    }
                 }
 
             }
@@ -160,6 +162,14 @@ header {
 
 
         .search {
+
+            i {
+                position: absolute;
+                right: 35px;
+                top: 15px;
+                color: #c9cdcd;
+                cursor: pointer;
+            }
 
 
             position: absolute;
@@ -186,7 +196,6 @@ header {
 
         }
 
-        
     }
 
 }

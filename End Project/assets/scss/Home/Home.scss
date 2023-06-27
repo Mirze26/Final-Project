@@ -139,6 +139,14 @@ header {
 
         .search {
 
+            i {
+                position: absolute;
+                right: 35px;
+                top: 15px;
+                color: #c9cdcd;
+                cursor: pointer;
+            }
+
 
             position: absolute;
             right: 564px;
@@ -446,14 +454,14 @@ main {
                         }
 
 
-                        .rating{
+                        .rating {
 
-                            a{
+                            a {
 
                                 color: orange;
                             }
                         }
-    
+
                         .item-price {
                             margin: 10px 0;
                             font-weight: 300;
@@ -461,19 +469,19 @@ main {
                             align-items: center;
                             justify-content: center;
                         }
-    
+
                         .old-price {
                             text-decoration: line-through;
                             opacity: 0.6;
                         }
-    
+
                         .new-price {
                             color: #000000;
                             font-size: 18px;
                             font-weight: 600;
                             margin-right: 10px;
                         }
-    
+
                         .add-btn {
                             margin: 16px 0;
                             text-transform: uppercase;
@@ -486,7 +494,7 @@ main {
                             cursor: pointer;
                             transition: all 0.3s ease-out;
                             display: none;
-    
+
                             &:hover {
                                 background-color: #fff;
                                 color: #202020;
@@ -497,7 +505,7 @@ main {
 
                     }
 
-                  
+
 
                     .details-active {
                         &.item-list {

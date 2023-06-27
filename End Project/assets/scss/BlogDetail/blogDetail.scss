@@ -4,6 +4,24 @@ body {
 
 }
 
+.blog-detail {
+    text-align: center;
+    margin-top: -100px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+.home-blogdetail {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+
 header {
 
     .menu-area {
@@ -15,22 +33,6 @@ header {
 
     #app-menu {
 
-        .about-page {
-            text-align: center;
-            margin-top: 120px;
-            font-weight: bold;
-            font-size: 45px;
-        }
-
-
-        .home-about {
-            text-align: center;
-
-            a {
-                text-decoration: none;
-                color: black;
-            }
-        }
 
 
 
@@ -159,6 +161,14 @@ header {
 
         .search {
 
+            i {
+                position: absolute;
+                right: 35px;
+                top: 15px;
+                color: #c9cdcd;
+                cursor: pointer;
+            }
+
 
             position: absolute;
             right: 564px;
@@ -183,7 +193,6 @@ header {
 
 
         }
-
 
     }
 

@@ -1,20 +1,22 @@
+.wishlist-page {
+  text-align: center;
+  margin-top: -100px;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.home-wishlist {
+  text-align: center;
+}
+.home-wishlist a {
+  text-decoration: none;
+  color: black;
+}
+
 header .menu-area {
   width: 100%;
   height: 330px;
   background-color: #f4f4f4;
-}
-header #app-menu .about-page {
-  text-align: center;
-  margin-top: 120px;
-  font-weight: bold;
-  font-size: 45px;
-}
-header #app-menu .home-about {
-  text-align: center;
-}
-header #app-menu .home-about a {
-  text-decoration: none;
-  color: black;
 }
 header #app-menu .payne-img {
   margin-top: 40px;
@@ -114,6 +116,13 @@ header #app-menu .search {
   width: 186px;
   z-index: 2;
 }
+header #app-menu .search i {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  color: #c9cdcd;
+  cursor: pointer;
+}
 header #app-menu .search input {
   width: 155px;
   height: 45px;
@@ -138,6 +147,11 @@ main .container {
 }
 main .container #cart {
   width: 100%;
+}
+main .container #cart .empty {
+  margin-top: 100px;
+  text-align: center;
+  font-weight: 800;
 }
 main .container #cart h1 {
   font-weight: 300;
