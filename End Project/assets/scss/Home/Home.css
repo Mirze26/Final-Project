@@ -465,10 +465,8 @@ main #shipment .delivery {
 }
 main #shipment .delivery .truck {
   width: 100%;
-}
-main #shipment .delivery .truck img {
-  width: 155px;
-  margin-top: 6px;
+  font-size: 50px;
+  padding: 9px;
 }
 main #shipment .delivery span {
   position: relative;
@@ -478,17 +476,13 @@ main #shipment .delivery span {
 }
 main #shipment .delivery .dollar {
   width: 100%;
-}
-main #shipment .delivery .dollar img {
-  width: 80px;
-  margin-top: 14px;
+  font-size: 50px;
+  padding: 9px;
 }
 main #shipment .delivery .headset {
   width: 100%;
-}
-main #shipment .delivery .headset img {
-  width: 80px;
-  margin-top: 17px;
+  font-size: 50px;
+  padding: 9px;
 }
 
 footer .footer {
